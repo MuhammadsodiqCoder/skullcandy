@@ -1,0 +1,38 @@
+#buttonSkewHover2{
+	border: none;
+	padding: 15px 45px;
+    overflow: hidden;
+	position: relative;
+    background-color: #383838;
+    color: white;
+}
+
+#buttonSkewHover2::before{
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: '';
+    width: 20px;
+    height: 100%;
+    background: #2C2C2D;
+    overflow: hidden;
+    position: absolute;
+    transform: skewX(20deg);
+    top: 0;
+    left: -5px;
+    right: 0;
+    margin: 0px auto;
+}
+#btnText2{
+    color: #ffff;
+    mix-blend-mode: difference;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#buttonSkewHover2:hover::before{
+    background: #2C2C2D;
+    width: 150%;
+}
+
+#productDiv{
+    background-image: url("../images//addImg.jpg");
+}

@@ -1,0 +1,76 @@
+#buttonSkewHover6 {
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 0px 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #383838;
+    color: white;
+}
+
+#buttonSkewHover6::before {
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: '';
+    width: 20px;
+    height: 100%;
+    background: #2C2C2D;
+    overflow: hidden;
+    position: absolute;
+    transform: skewX(20deg);
+    top: 0;
+    left: -5px;
+    right: 0;
+    margin: 0px auto;
+}
+
+#btnText6 {
+    color: #ffff;
+    mix-blend-mode: difference;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#buttonSkewHover6:hover::before {
+    background: #2C2C2D;
+    width: 150%;
+}
+
+#buttonSkewHover7 {
+    border: none;
+    width: 150px;
+    margin: 0px 10px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(228, 228, 228);
+}
+
+#buttonSkewHover7::before {
+    transition: all 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: '';
+    width: 20px;
+    height: 100%;
+    background: rgb(207, 207, 207);
+    overflow: hidden;
+    position: absolute;
+    transform: skewX(20deg);
+    top: 0;
+    left: -10px;
+    right: 0;
+    margin: 0px auto;
+}
+
+#btnText7 {
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#buttonSkewHover7:hover::before {
+    background: rgb(207, 207, 207);
+    width: 150%;
+}

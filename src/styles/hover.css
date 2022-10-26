@@ -1,0 +1,68 @@
+#hover::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    transform: scaleX(0);
+    transition: .5s;
+    left: 0;
+    bottom: -10px;
+}
+#hover:hover::after{
+    transform: scaleX(1);
+}
+#flag{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/flagEurope.svg");
+    background-size: cover;
+    margin: 0px 20px;
+}
+#flag::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    left: 0px;
+    transition: .4s;
+    transform: scaleX(0);
+    bottom: -5px;
+}
+#flag:hover::before{
+    transform: scaleX(1);
+}
+#linkHover::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    left: 0px;
+    transition: .3s;
+    transform: scaleX(0);
+    bottom: -8px;
+}
+#linkHover:hover::after{
+    transform: scaleX(1);
+}
+
+#linkHover2::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    left: 0px;
+    transition: ease-in-out .5s;
+    transform: scaleX(0);
+    bottom: -8px;
+}
+#linkHover2:hover::after{
+    transform: scaleX(1);
+}
+#gamingHeadset:hover #gamingHeadsetDescription{
+    color: #6e6e6e;
+}

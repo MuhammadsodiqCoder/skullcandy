@@ -1,0 +1,21 @@
+
+#footer::after{
+    content: '';
+    position: absolute;
+    transform: rotate(-25deg);
+    left: 0;
+    top: -85px;
+    height: 210%;
+    width: 1px;
+    background-color: #4d4d4d;
+}
+#footer::before{
+    content: '';
+    position: absolute;
+    transform: rotate(-25deg);
+    right: 0;
+    top: -85px;
+    height: 210%;
+    width: 1px;
+    background-color: #4d4d4d;
+}

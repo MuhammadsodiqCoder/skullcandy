@@ -1,0 +1,144 @@
+@media only screen and (max-width: 640px) {
+    #banner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #slyr {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: right;
+    }
+
+    #homeMainDiv {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        background-position: center;
+        padding-top: 20px;
+    }
+
+    #topDiv {
+        width: 100%;
+        height: 50%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #bannerLeftSide {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #bannerDescriptionDiv {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    #buttonSkewHover4{
+        margin: 5px 0px;
+    }
+
+    #cartWrapper{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+    #category{
+        flex-direction: column;
+    }
+
+    #bannerDescriptionText {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+
+    #bannerTitle {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    #form{
+        width: 100%;
+    }
+    #sideLinkDivText {
+        font-size: 18px;
+    }
+    #create{
+        font-size: 40px;
+    }
+    #sideLinkDivBottomText {
+        font-size: 13px;
+    }
+
+    #trendingHeadsets,
+    #hover {
+        display: none;
+    }
+
+    #swiperWrapper,
+    #navbarItem2,
+    #side2 {
+        display: block;
+    }
+    #btnWrapper{
+        flex-direction: column;
+    }
+    #forget{
+        margin: 20px 0px;
+    }
+    #loginBox{
+        padding: 20px;
+    }
+    #homeBody1{
+        height: 100vh;
+    }
+    #homeBody12{
+        width: auto;
+        height: 100vh;
+    }
+    #leftSingle{
+        position: absolute;
+        width: 100%;
+        padding-left: 30px;
+    }
+    #secondFooter {
+        display: block;
+    }
+
+    #navbarItem3 {
+        width: 0;
+    }
+    #productN{
+        color: white;
+        font-size: 40px;
+        width: auto;
+    }
+    #productN2{
+        color: white;
+        font-size: 20px;
+        width: auto;
+    }
+       #productN3{
+        color: white;
+        font-size: 20px;
+    }
+
+    #navbarItem5 {
+        font-size: 0;
+    }
+
+    #footer001,
+    #flag,
+    #linkHover,
+    #linkHover2,
+    #navbarItem {
+        display: none
+    }
+}
+
+;
